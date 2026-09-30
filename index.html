@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>5º Ano — Investigar | Jornada de Inovação SESI CE-397</title>
+
+    <!-- =====================================================
+         CSS PRINCIPAL
+         Mantenha o arquivo style.css na mesma pasta deste HTML
+         ===================================================== -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Ajustes pontuais do logo e da divisória do rodapé. -->
+    <style>
+        /* Recorta as margens brancas da imagem original, preservando o logo vermelho e as letras brancas. */
+        .logo-link,
+        .footer-logo {
+            display: block;
+            width: 150px;
+            height: 42px;
+            overflow: hidden;
+            background: #111111;
+            flex: 0 0 auto;
+        }
+
+        .logo-link img.sesi-logo,
+        .footer-logo img.sesi-logo {
+            display: block;
+            width: 100%;
+            height: 100%;
+            max-width: none;
+            object-fit: cover;
+            object-position: center;
+            transform: scale(1.12);
+            filter: none !important;
+        }
+
+        /* Divisória mais curta e discreta no rodapé. */
+        .footer-bottom {
+            border-top: 0 !important;
+            position: relative;
+        }
+
+        .footer-bottom::before {
+            content: "";
+            display: block;
+            width: min(70%, 900px);
+            margin: 0 auto 16px;
+            border-top: 1px solid rgba(255, 255, 255, 0.22);
+        }
+    </style>
+
+    <!-- =====================================================
+         CABEÇALHO
+         ===================================================== -->
+    <header class="main-header">
+
+        <div class="header-container">
+
+            <!-- LOGO SESI -->
+            <a href="../index.html" class="logo-link">
+
+                <!-- COLE AQUI O CAMINHO DA LOGO SESI -->
+                <img src="https://www.apcefsp.org.br/wp-content/uploads/2017/07/sesi-logo.jpg"
+                     alt="SESI" class="sesi-logo">
+
+            </a>
+
+
+            <!-- IDENTIFICAÇÃO DO PROJETO -->
+            <div class="project-title">
+
+                <span>
+                    JORNADA DE INOVAÇÃO
+                </span>
+
+                <strong>
+                    SESI CE-397
+                </strong>
+
+            </div>
+
+
+            <!-- MENU -->
+            <nav class="main-nav">
+
+                <a href="#inicio">
+                    Início
+                </a>
+
+                <a href="#missao">
+                    Nossa Missão
+                </a>
+
+                <a href="#investigacao">
+                    Investigação
+                </a>
+
+                <a href="#registros">
+                    Registros
+                </a>
+
+                <a href="#pesquisa">
+                    Pesquisa
+                </a>
+
+                <a href="#producoes">
+                    Produções
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+    <main id="inicio">
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="hero-label">
+                    JORNADA DE INOVAÇÃO
+                </span>
+
+                <h1>
+                    5º ANO
+                </h1>
+
+                <h2>
+                    INVESTIGAR
+                </h2>
+
+                <p class="hero-subtitle">
+                    Onde tudo começa.
+                </p>
+
+                <p class="hero-text">
+
+                    Nesta etapa da Jornada de Inovação,
+                    nossos estudantes irão observar,
+                    investigar e compreender situações
+                    do cotidiano, buscando identificar
+                    problemas e necessidades.
+
+                </p>
+
+
+                <!-- PROFESSORA RESPONSÁVEL -->
+
+                <div class="teacher-highlight">
+
+                    <span>
+                        PROFESSORA RESPONSÁVEL
+                    </span>
+
+                    <strong>
+                        Gisele
+                    </strong>
+
+                </div>
+
+
+                <!-- BOTÃO DA TURMA -->
+
+                <a href="turma/index.html"
+                   class="hero-button">
+
+                    CONHEÇA NOSSA TURMA
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             NOSSA MISSÃO
+             ================================================= -->
+        <section id="missao"
+                 class="section section-light">
+
+            <div class="section-header">
+
+                <span class="section-label">
+                    NOSSA MISSÃO
+                </span>
+
+                <h2>
+                    Investigar para compreender
+                </h2>
+
+                <p>
+
+                    O primeiro passo da nossa Jornada de
+                    Inovação é observar a realidade,
+                    fazer perguntas e compreender os
+                    problemas que fazem parte do nosso
+                    cotidiano.
+
+                </p>
+
+            </div>
+
+
+            <div class="mission-grid">
+
+
+                <!-- OBSERVAR -->
+
+                <article class="mission-card">
+
+                    <div class="mission-icon">
+                        👀
+                    </div>
+
+                    <h3>
+                        OBSERVAR
+                    </h3>
+
+                    <p>
+
+                        Perceber situações, necessidades
+                        e acontecimentos presentes no
+                        cotidiano.
+
+                    </p>
+
+                </article>
+
+
+                <!-- QUESTIONAR -->
+
+                <article class="mission-card">
+
+                    <div class="mission-icon">
+                        ❓
+                    </div>
+
+                    <h3>
+                        QUESTIONAR
+                    </h3>
+
+                    <p>
+
+                        Fazer perguntas para compreender
+                        melhor aquilo que observamos.
+
+                    </p>
+
+                </article>
+
+
+                <!-- PESQUISAR -->
+
+                <article class="mission-card">
+
+                    <div class="mission-icon">
+                        🔎
+                    </div>
+
+                    <h3>
+                        PESQUISAR
+                    </h3>
+
+                    <p>
+
+                        Buscar informações e diferentes
+                        perspectivas sobre o problema.
+
+                    </p>
+
+                </article>
+
+
+                <!-- REGISTRAR -->
+
+                <article class="mission-card">
+
+                    <div class="mission-icon">
+                        📝
+                    </div>
+
+                    <h3>
+                        REGISTRAR
+                    </h3>
+
+                    <p>
+
+                        Registrar descobertas, ideias,
+                        observações e resultados.
+
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             INVESTIGAÇÃO
+             ================================================= -->
+        <section id="investigacao"
+                 class="section section-dark">
+
+            <div class="section-header">
+
+                <span class="section-label">
+                    ETAPA 01
+                </span>
+
+                <h2>
+                    Desenvolvimento do problema
+                </h2>
+
+                <p>
+
+                    Nesta etapa, os estudantes irão
+                    desenvolver a investigação até chegar
+                    à compreensão do problema que será
+                    encaminhado para a próxima etapa
+                    da Jornada.
+
+                </p>
+
+            </div>
+
+
+            <div class="process-flow">
+
+
+                <div class="process-item">
+
+                    <span>
+                        01
+                    </span>
+
+                    <h3>
+                        OBSERVAR
+                    </h3>
+
+                </div>
+
+
+                <div class="process-arrow">
+                    →
+                </div>
+
+
+                <div class="process-item">
+
+                    <span>
+                        02
+                    </span>
+
+                    <h3>
+                        INVESTIGAR
+                    </h3>
+
+                </div>
+
+
+                <div class="process-arrow">
+                    →
+                </div>
+
+
+                <div class="process-item">
+
+                    <span>
+                        03
+                    </span>
+
+                    <h3>
+                        COMPREENDER
+                    </h3>
+
+                </div>
+
+
+                <div class="process-arrow">
+                    →
+                </div>
+
+
+                <div class="process-item">
+
+                    <span>
+                        04
+                    </span>
+
+                    <h3>
+                        REGISTRAR
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             REGISTROS DA INVESTIGAÇÃO
+             ================================================= -->
+        <section id="registros"
+                 class="section section-light">
+
+            <div class="section-header">
+
+                <span class="section-label">
+                    DOCUMENTAÇÃO
+                </span>
+
+                <h2>
+                    Registros da nossa investigação
+                </h2>
+
+                <p>
+
+                    Este espaço será atualizado ao longo
+                    da Jornada com os registros produzidos
+                    pelos estudantes.
+
+                </p>
+
+            </div>
+
+
+            <div class="content-grid">
+
+
+                <!-- FOTO -->
+
+                <article class="content-card">
+
+                    <div class="content-icon">
+                        📷
+                    </div>
+
+                    <h3>
+                        Fotografias
+                    </h3>
+
+                    <p>
+
+                        Registros dos momentos de
+                        investigação e atividades
+                        realizadas pelos estudantes.
+
+                    </p>
+
+
+                    <!-- =====================================
+                         COLE AQUI O CAMINHO DA FOTO
+                         Exemplo:
+                         imagens/5ano/investigacao-01.jpg
+                         ===================================== -->
+
+                    <div class="media-placeholder">
+
+                        <span>
+                            COLE AQUI A FOTO
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- VÍDEO -->
+
+                <article class="content-card">
+
+                    <div class="content-icon">
+                        🎥
+                    </div>
+
+                    <h3>
+                        Vídeos
+                    </h3>
+
+                    <p>
+
+                        Vídeos produzidos durante as
+                        atividades da Jornada.
+
+                    </p>
+
+
+                    <!-- =====================================
+                         COLE AQUI O LINK DO YOUTUBE
+                         ===================================== -->
+
+                    <a href="COLE_AQUI_O_LINK_DO_YOUTUBE"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="content-button">
+
+                        ASSISTIR AO VÍDEO
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- DOCUMENTO -->
+
+                <article class="content-card">
+
+                    <div class="content-icon">
+                        📄
+                    </div>
+
+                    <h3>
+                        Documentos
+                    </h3>
+
+                    <p>
+
+                        Materiais e documentos produzidos
+                        durante a investigação.
+
+                    </p>
+
+
+                    <!-- =====================================
+                         COLE AQUI O LINK DO DOCUMENTO
+                         ===================================== -->
+
+                    <a href="COLE_AQUI_O_LINK_DO_DOCUMENTO"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="content-button">
+
+                        ACESSAR DOCUMENTO
+
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             GALERIA
+             ================================================= -->
+        <section id="galeria"
+                 class="section section-dark">
+
+            <div class="section-header">
+
+                <span class="section-label">
+                    NOSSA JORNADA
+                </span>
+
+                <h2>
+                    Galeria de momentos
+                </h2>
+
+                <p>
+
+                    Registros fotográficos das atividades
+                    realizadas pelos estudantes.
+
+                </p>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+
+                <!-- FOTO 01 -->
+
+                <div class="gallery-item">
+
+                    <!-- COLE AQUI A FOTO 01 -->
+
+                    <img src="COLE_AQUI_A_FOTO_01.jpg"
+                         alt="Registro da Jornada">
+
+                </div>
+
+
+                <!-- FOTO 02 -->
+
+                <div class="gallery-item">
+
+                    <!-- COLE AQUI A FOTO 02 -->
+
+                    <img src="COLE_AQUI_A_FOTO_02.jpg"
+                         alt="Registro da Jornada">
+
+                </div>
+
+
+                <!-- FOTO 03 -->
+
+                <div class="gallery-item">
+
+                    <!-- COLE AQUI A FOTO 03 -->
+
+                    <img src="COLE_AQUI_A_FOTO_03.jpg"
+                         alt="Registro da Jornada">
+
+                </div>
+
+
+                <!-- FOTO 04 -->
+
+                <div class="gallery-item">
+
+                    <!-- COLE AQUI A FOTO 04 -->
+
+                    <img src="COLE_AQUI_A_FOTO_04.jpg"
+                         alt="Registro da Jornada">
+
+                </div>
+
+
+                <!-- FOTO 05 -->
+
+                <div class="gallery-item">
+
+                    <!-- COLE AQUI A FOTO 05 -->
+
+                    <img src="COLE_AQUI_A_FOTO_05.jpg"
+                         alt="Registro da Jornada">
+
+                </div>
+
+
+                <!-- FOTO 06 -->
+
+                <div class="gallery-item">
+
+                    <!-- COLE AQUI A FOTO 06 -->
+
+                    <img src="COLE_AQUI_A_FOTO_06.jpg"
+                         alt="Registro da Jornada">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PESQUISA DE PERCEPÇÃO
+             ================================================= -->
+        <section id="pesquisa"
+                 class="section section-light">
+
+            <div class="section-header">
+
+                <span class="section-label">
+                    PARTICIPAÇÃO DOS ESTUDANTES
+                </span>
+
+                <h2>
+                    Pesquisa de Percepção
+                </h2>
+
+                <p>
+
+                    Os estudantes participarão dos
+                    diferentes momentos da pesquisa
+                    previstos para a Jornada.
+
+                </p>
+
+            </div>
+
+
+            <div class="questionnaires">
+
+
+                <!-- MOMENTO 01 -->
+
+                <article class="questionnaire-card">
+
+                    <div class="questionnaire-icon">
+                        📝
+                    </div>
+
+                    <span>
+                        MOMENTO 01
+                    </span>
+
+                    <h3>
+                        Percepção inicial
+                    </h3>
+
+                    <p>
+
+                        Questionário realizado no início
+                        da Jornada.
+
+                    </p>
+
+
+                    <!-- COLE AQUI O LINK DO FORMULÁRIO -->
+
+                    <a href="COLE_AQUI_O_LINK_DO_FORMULARIO_01"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="questionnaire-button">
+
+                        ACESSAR QUESTIONÁRIO
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- MOMENTO 02 -->
+
+                <article class="questionnaire-card">
+
+                    <div class="questionnaire-icon">
+                        🤖
+                    </div>
+
+                    <span>
+                        MOMENTO 02
+                    </span>
+
+                    <h3>
+                        Reação à visita do robô
+                    </h3>
+
+                    <p>
+
+                        Questionário relacionado à
+                        experiência dos estudantes após
+                        a visita e interação com o robô.
+
+                    </p>
+
+
+                    <!-- COLE AQUI O LINK DO FORMULÁRIO -->
+
+                    <a href="COLE_AQUI_O_LINK_DO_FORMULARIO_02"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="questionnaire-button">
+
+                        ACESSAR QUESTIONÁRIO
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- MOMENTO 03 -->
+
+                <article class="questionnaire-card">
+
+                    <div class="questionnaire-icon">
+                        📊
+                    </div>
+
+                    <span>
+                        MOMENTO 03
+                    </span>
+
+                    <h3>
+                        Fechamento — 1 mês após
+                    </h3>
+
+                    <p>
+
+                        Questionário realizado
+                        aproximadamente um mês após
+                        a visita.
+
+                    </p>
+
+
+                    <!-- COLE AQUI O LINK DO FORMULÁRIO -->
+
+                    <a href="COLE_AQUI_O_LINK_DO_FORMULARIO_03"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="questionnaire-button">
+
+                        ACESSAR QUESTIONÁRIO
+
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PRODUÇÕES DOS ESTUDANTES
+             ================================================= -->
+        <section id="producoes"
+                 class="section section-dark">
+
+            <div class="section-header">
+
+                <span class="section-label">
+                    PRODUÇÕES
+                </span>
+
+                <h2>
+                    O que estamos construindo?
+                </h2>
+
+                <p>
+
+                    Nesta área serão disponibilizados
+                    os materiais produzidos pelos
+                    estudantes durante a investigação.
+
+                </p>
+
+            </div>
+
+
+            <div class="production-grid">
+
+
+                <!-- PRODUÇÃO 01 -->
+
+                <article class="production-card">
+
+                    <span>
+                        PRODUÇÃO 01
+                    </span>
+
+                    <h3>
+                        Investigação
+                    </h3>
+
+                    <p>
+
+                        Material produzido pelos
+                        estudantes.
+
+                    </p>
+
+
+                    <!-- COLE AQUI O LINK -->
+
+                    <a href="COLE_AQUI_O_LINK"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        VER PRODUÇÃO →
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- PRODUÇÃO 02 -->
+
+                <article class="production-card">
+
+                    <span>
+                        PRODUÇÃO 02
+                    </span>
+
+                    <h3>
+                        Desenvolvimento do problema
+                    </h3>
+
+                    <p>
+
+                        Registro do desenvolvimento
+                        realizado pela turma.
+
+                    </p>
+
+
+                    <!-- COLE AQUI O LINK -->
+
+                    <a href="COLE_AQUI_O_LINK"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        VER PRODUÇÃO →
+
+                    </a>
+
+                </article>
+
+
+
+                <!-- PRODUÇÃO 03 -->
+
+                <article class="production-card">
+
+                    <span>
+                        PRODUÇÃO 03
+                    </span>
+
+                    <h3>
+                        Resultado da investigação
+                    </h3>
+
+                    <p>
+
+                        Documento final produzido
+                        pelos estudantes.
+
+                    </p>
+
+
+                    <!-- COLE AQUI O LINK -->
+
+                    <a href="COLE_AQUI_O_LINK"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        VER PRODUÇÃO →
+
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             RESULTADO
+             ================================================= -->
+        <section class="result-section">
+
+            <div class="result-content">
+
+                <span class="section-label">
+                    RESULTADO DA ETAPA
+                </span>
+
+                <h2>
+                    O que descobrimos?
+                </h2>
+
+                <p>
+
+                    Nesta área serão apresentados os
+                    principais resultados da investigação
+                    realizada pelos estudantes.
+
+                </p>
+
+
+                <!-- =========================================
+                     COLE AQUI O RESULTADO / DOCUMENTO FINAL
+                     ========================================= -->
+
+                <a href="COLE_AQUI_O_LINK_DO_RESULTADO"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="hero-button">
+
+                    VER RESULTADOS
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             NOSSA JORNADA
+             ================================================= -->
+        <section class="journey-section">
+
+            <div class="section-header">
+
+                <span class="section-label">
+                    NOSSA JORNADA
+                </span>
+
+                <h2>
+                    Uma etapa conecta a outra
+                </h2>
+
+            </div>
+
+
+            <div class="journey-flow">
+
+
+                <div class="journey-stage active">
+
+                    <span>
+                        5º ANO
+                    </span>
+
+                    <strong>
+                        INVESTIGAR
+                    </strong>
+
+                </div>
+
+
+                <div class="journey-arrow">
+                    →
+                </div>
+
+
+                <div class="journey-stage">
+
+                    <span>
+                        9º ANO
+                    </span>
+
+                    <strong>
+                        CRIAR
+                    </strong>
+
+                </div>
+
+
+                <div class="journey-arrow">
+                    →
+                </div>
+
+
+                <div class="journey-stage">
+
+                    <span>
+                        2º ANO EM
+                    </span>
+
+                    <strong>
+                        DESENVOLVER
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- VOLTAR PARA A PÁGINA PRINCIPAL -->
+
+            <a href="../index.html"
+               class="back-button">
+
+                ← VOLTAR PARA A JORNADA DE INOVAÇÃO
+
+            </a>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         RODAPÉ
+         ===================================================== -->
+    <footer class="main-footer">
+
+        <div class="footer-container">
+
+
+            <div class="footer-logo">
+
+                <!-- COLE AQUI O CAMINHO DA LOGO SESI -->
+
+                <img src="https://www.apcefsp.org.br/wp-content/uploads/2017/07/sesi-logo.jpg"
+                     alt="SESI" class="sesi-logo">
+
+            </div>
+
+
+            <div class="footer-info">
+
+                <h3>
+                    JORNADA DE INOVAÇÃO
+                </h3>
+
+                <p>
+                    SESI CE-397 — Mauá
+                </p>
+
+                <p>
+                    5º Ano — Investigar
+                </p>
+
+                <p>
+                    Professora Gisele
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="../index.html">
+                    Página Principal
+                </a>
+
+                <a href="#inicio">
+                    Voltar ao início
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 — SESI CE-397 | Jornada de Inovação
+            </p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+</html>
